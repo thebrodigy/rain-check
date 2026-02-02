@@ -18,7 +18,7 @@ public class WeatherService {
 
     private final WeatherApiClient weatherApiClient;
 
-    private static Logger logger = LoggerFactory.getLogger(WeatherService.class);
+    private static final Logger logger = LoggerFactory.getLogger(WeatherService.class);
 
     @Value("${weather.api.key}")
     private String apiKey;
